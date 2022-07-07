@@ -60,12 +60,7 @@ export default function ProjetoCrud() {
                             <Tr key={client.email}>
                                 <Td>{client.name}</Td>
                                 <Td>{client.email}</Td>
-                                <Td>
-                                    <Flex gap="2">
-                                        <Button size="sm" colorScheme="purple">Editar</Button>
-                                        <Button size="sm" colorScheme="red">Remover</Button>
-                                    </Flex>
-                                </Td>
+
                             </Tr>
                         ))}
                     </Tbody>
